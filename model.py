@@ -1,8 +1,7 @@
+from quests.settings import Parameter
 
-test = {
-    'rubin - dinamo': '2:0',
-    'name - sin': '1:2',
-}
+match = Parameter.get_parameter()
+
 
 def get_api(teams):
     stack = []
@@ -20,4 +19,4 @@ def get_api(teams):
     return result
 
 
-print(get_api(test))
+print(get_api(match))

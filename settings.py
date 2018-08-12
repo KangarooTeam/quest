@@ -1,9 +1,10 @@
-string_one = input("team - team ")
-string_two = input("0:0 ")
+class Parameter():
 
-def get_parameter(teams, goals):
-    result = {
-        teams : goals
-    }
+    def get_parameter(self):
+        teams = input("team - team ")
+        goals = input("0:0 ")
+        result = {
+            teams: goals
+        }
 
-    return result
+        return result
