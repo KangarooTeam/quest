@@ -1,7 +1,7 @@
-from quests.settings import Parameter
+from settings import Parameter
 
-match = Parameter.get_parameter()
-
+match = Parameter()
+result = match.get_parameter()
 
 def get_api(teams):
     stack = []
@@ -19,4 +19,4 @@ def get_api(teams):
     return result
 
 
-print(get_api(match))
+team_api = get_api(result)

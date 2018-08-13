@@ -1,4 +1,4 @@
-class Parameter():
+class Parameter:
 
     def get_parameter(self):
         teams = input("team - team ")
