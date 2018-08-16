@@ -39,8 +39,8 @@ def add_api(team_api):
             else:
                 new_api[name] = [goal, "D", 1]
                 new_api[cashe] = [stack, "D", 1]
-        stack = 0
-        cashe = str()
+            stack = 0
+            cashe = str()
     return new_api
 
 print(add_api(post_api))
